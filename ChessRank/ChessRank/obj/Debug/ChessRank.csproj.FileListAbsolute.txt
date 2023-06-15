@@ -1,0 +1,15 @@
+C:\Users\Eduardo\source\repos\EduRamoss3\FormsChess\ChessRank\ChessRank\obj\Debug\ChessRank.csproj.AssemblyReference.cache
+C:\Users\Eduardo\source\repos\EduRamoss3\FormsChess\ChessRank\ChessRank\obj\Debug\ChessRank.csproj.SuggestedBindingRedirects.cache
+C:\Users\Eduardo\source\repos\EduRamoss3\FormsChess\ChessRank\ChessRank\obj\Debug\ChessRank.Properties.Resources.resources
+C:\Users\Eduardo\source\repos\EduRamoss3\FormsChess\ChessRank\ChessRank\obj\Debug\ChessRank.csproj.GenerateResource.cache
+C:\Users\Eduardo\source\repos\EduRamoss3\FormsChess\ChessRank\ChessRank\obj\Debug\ChessRank.csproj.CoreCompileInputs.cache
+C:\Users\Eduardo\source\repos\EduRamoss3\FormsChess\ChessRank\ChessRank\bin\Debug\ChessRank.exe.config
+C:\Users\Eduardo\source\repos\EduRamoss3\FormsChess\ChessRank\ChessRank\bin\Debug\ChessRank.exe
+C:\Users\Eduardo\source\repos\EduRamoss3\FormsChess\ChessRank\ChessRank\bin\Debug\ChessRank.pdb
+C:\Users\Eduardo\source\repos\EduRamoss3\FormsChess\ChessRank\ChessRank\obj\Debug\ChessRank.exe
+C:\Users\Eduardo\source\repos\EduRamoss3\FormsChess\ChessRank\ChessRank\obj\Debug\ChessRank.pdb
+C:\Users\Eduardo\source\repos\EduRamoss3\FormsChess\ChessRank\ChessRank\bin\Debug\Data\Database.sdf
+C:\Users\Eduardo\source\repos\EduRamoss3\FormsChess\ChessRank\ChessRank\obj\Debug\ChessRank.Mainscreen.resources
+C:\Users\Eduardo\source\repos\EduRamoss3\FormsChess\ChessRank\ChessRank\obj\Debug\ChessRank.Registerscreen.resources
+C:\Users\Eduardo\source\repos\EduRamoss3\FormsChess\ChessRank\ChessRank\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\Eduardo\source\repos\EduRamoss3\FormsChess\ChessRank\ChessRank\obj\Debug\ChessRank.csproj.CopyComplete
