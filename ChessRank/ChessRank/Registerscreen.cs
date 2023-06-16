@@ -214,7 +214,7 @@ namespace ChessRank
 
         }
 
-        private void btnInput_Click(object sender, EventArgs e)
+        private void btnInput_Click(object sender, EventArgs e) // Botão para abrir a caixa de dialogo e salvar um arquivo IMG.
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.Filter = "Arquivos de Imagem|*.jpg;*.jpeg;*.png;*.bmp";
