@@ -142,7 +142,6 @@
             this.labelCity.Size = new System.Drawing.Size(85, 21);
             this.labelCity.TabIndex = 11;
             this.labelCity.Text = "Cidade";
-            this.labelCity.Click += new System.EventHandler(this.label2_Click);
             // 
             // textRating
             // 
@@ -161,7 +160,6 @@
             this.labelEstate.Size = new System.Drawing.Size(70, 24);
             this.labelEstate.TabIndex = 13;
             this.labelEstate.Text = "Estado";
-            this.labelEstate.Click += new System.EventHandler(this.labelEstate_Click);
             // 
             // textEstate
             // 
@@ -180,7 +178,6 @@
             this.radioMasc.TabStop = true;
             this.radioMasc.Text = "Masculino";
             this.radioMasc.UseVisualStyleBackColor = true;
-            this.radioMasc.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // radioFemini
             // 
@@ -206,7 +203,6 @@
             this.groupBox1.TabIndex = 17;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Sexo:";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // lblErrors
             // 

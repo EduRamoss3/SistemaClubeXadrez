@@ -16,8 +16,6 @@ namespace ChessRank
 {
     public partial class Mainscreen : Form
     {
-
-
         public Mainscreen()
         {
 
@@ -61,34 +59,6 @@ namespace ChessRank
             tablePlayer.DataSource = Entities.PlayerDataAcess.takePlayers();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void listView16_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void newPlayer(object sender, EventArgs e)
         {
@@ -96,12 +66,6 @@ namespace ChessRank
             new Registerscreen(this).Show();
 
         }
-
-        private void listView1_SelectedIndexChanged_1(object sender, EventArgs e)
-        {
-
-        }
-
         private void editPlayer_Click(object sender, EventArgs e)
         {
             try
@@ -141,17 +105,6 @@ namespace ChessRank
                
 
         }
-
-        private void bindingSource1_CurrentChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
-        {
-
-        }
-
         private void tablePlayer_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             int id = Convert.ToInt32(tablePlayer.SelectedRows[0].Cells[0].Value);
@@ -175,16 +128,8 @@ namespace ChessRank
             label4.Text = player.City;
             lblNamePlayer.Text = player.Name;
             lblEstado.Text = player.State;
-            
-            //lblRatingPlayer.Text = player.Rating.ToString();
 
         }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-        // Obter o ID selecionado na célula clicada
     }
 }
 

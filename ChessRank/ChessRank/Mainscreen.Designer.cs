@@ -42,8 +42,6 @@
             this.button3 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.rankingDeJogadores = new System.Windows.Forms.Label();
-            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -228,10 +226,6 @@
             this.rankingDeJogadores.TabIndex = 118;
             this.rankingDeJogadores.Text = "Ranking de jogadores";
             // 
-            // openFileDialog1
-            // 
-            this.openFileDialog1.FileName = "openFileDialog1";
-            // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Black;
@@ -309,7 +303,6 @@
             this.label3.Size = new System.Drawing.Size(36, 18);
             this.label3.TabIndex = 121;
             this.label3.Text = "Rating";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // lblEstado
             // 
@@ -376,7 +369,6 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Mainscreen";
             this.Text = "RankChess";
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.tablePlayer)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -404,8 +396,6 @@
         private System.Windows.Forms.Label lblEstado;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.OpenFileDialog openFileDialog1;
-        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         public System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label7;

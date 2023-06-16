@@ -27,7 +27,7 @@ namespace ChessRank
             _mainscreen = mainscreen;
             InitializeComponent();
         }
-        public Registerscreen(Mainscreen mainscreen, int Id)
+        public Registerscreen(Mainscreen mainscreen, int Id) // Reutilizando a tela register screen com base no ID do jogador
         {
             _mainscreen = mainscreen;
             InitializeComponent();
@@ -39,7 +39,7 @@ namespace ChessRank
             lblDirectory.Visible = false;
 
         }
-        private void PlayerToScreen(Player player)
+        private void PlayerToScreen(Player player) //Mandar as informaçoes do jogador para tela
         {
             lblId.Visible = true;
             btnBack.Visible = false;
@@ -69,50 +69,25 @@ namespace ChessRank
                     pictureBox1.Image = imagem;
 
                 }
-
             }
             catch (FormatException)
             {
                 MessageBox.Show("Erro ao selecionar imagem perfil");
             }
-            
-
-
         }
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void labelEstate_Click(object sender, EventArgs e)
-        {
-
-        }
-
-
-
         private void saveAction(object sender, EventArgs e)
         {
 
             //Mover os dados para a classe funcionarios
-            try {
+            try
+            {
                 Player player = new Player();
                 player.Name = textName.Text;
                 player.Rating = int.Parse(textRating.Text);
                 player.City = textCity.Text;
                 player.State = textEstate.Text;
                 player.Sex = (radioMasc.Checked) ? "M" : "F";
-               
+
                 if (pictureBox1.Image == null)
                 {
                     lblErrors.Text = "A imagem é obrigatória.";
@@ -139,11 +114,11 @@ namespace ChessRank
                     {
                         //Salvar os dados
                         //Fechar e atualizar a tela principal
-                          
+
                         if (PlayerDataAcess.saveNewPlayers(player))
                         {
                             //Sucesso
-                            
+
                             _mainscreen.UpdateTable();
                             this.Close();
                         }
@@ -169,12 +144,12 @@ namespace ChessRank
             catch (FormatException)
             {
                 MessageBox.Show("Verifique todos os campos antes de cadastrar.");
-            }   
+            }
 
 
         }
-       
-        private void button1_Click(object sender, EventArgs e) //Botão ''Pronto'', para concluir as informações e salva-las.
+
+        private void button1_Click(object sender, EventArgs e)     //Botão ''Pronto'', para concluir as informações e salva-las.
         {
             try
             {
@@ -235,8 +210,8 @@ namespace ChessRank
             {
                 MessageBox.Show("Verifique se todos os campos estão no formato correto");
             }
-          
-           
+
+
         }
 
         private void btnInput_Click(object sender, EventArgs e)
@@ -247,7 +222,7 @@ namespace ChessRank
             {
                 if (openFileDialog.ShowDialog() == DialogResult.OK)
                 {
-                    
+
                     string file = openFileDialog.FileName;
                     lblDirectory.Text = openFileDialog.FileName;
                     File.ReadAllBytes(file);
@@ -261,11 +236,8 @@ namespace ChessRank
                 MessageBox.Show("Por favor, selecione uma imagem com formato correto.");
 
             }
-           
 
         }
-
-
 
     }
 }
