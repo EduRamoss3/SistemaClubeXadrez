@@ -14,11 +14,9 @@ namespace ChessRank.Entities
         public int Id { get; set; }
         [Required]
         [StringLength(100, MinimumLength = 5)]
-        public string Name { get; set; }
-        [MaxLength(4)]
+        public string Name { get; set; } 
         public int Rating { get; set; }
-
-        public int Position { get; set; }
+        public int Position { get; protected set; }
         [Required]
         public string City { get; set; }
         [Required]
